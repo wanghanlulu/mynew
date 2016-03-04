@@ -2,4 +2,6 @@
 
 import sys
 
+d={}
 for line in sys.stdin:
+  d=line.split(',')
